@@ -1,0 +1,199 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserProfile renders correctly 1`] = `
+<BVLinearGradient
+  colors={
+    Array [
+      4293914607,
+      4293914607,
+    ]
+  }
+  locations={
+    Array [
+      0,
+      1,
+    ]
+  }
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTSafeAreaView
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      onLayout={[Function]}
+    >
+      <View
+        style={
+          Array [
+            undefined,
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              undefined,
+              undefined,
+            ]
+          }
+        />
+        <View
+          style={
+            Array [
+              undefined,
+              undefined,
+              null,
+            ]
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Array [
+                Object {
+                  "fontFamily": "OpenSans-Regular",
+                },
+                Array [
+                  undefined,
+                  null,
+                ],
+              ]
+            }
+          >
+            Profile
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              undefined,
+              undefined,
+            ]
+          }
+        />
+      </View>
+      <RCTScrollView
+        showsVerticalScrollIndicator={false}
+      >
+        <View>
+          <View
+            style={
+              Array [
+                undefined,
+                undefined,
+                null,
+              ]
+            }
+          >
+            <View>
+              <View
+                style={
+                  Array [
+                    undefined,
+                    Object {
+                      "position": "relative",
+                    },
+                  ]
+                }
+              >
+                <View
+                  accessible={true}
+                  isTVSelectable={true}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "#2E88FF",
+                      "borderRadius": 75,
+                      "height": 150,
+                      "opacity": 1,
+                      "width": 150,
+                    }
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Array [
+                        Object {
+                          "fontFamily": "OpenSans-Regular",
+                        },
+                        null,
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "fontFamily": "OpenSans-Regular",
+                  },
+                  Array [
+                    undefined,
+                    undefined,
+                  ],
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+          <View />
+          <RCTScrollView
+            data={Array []}
+            disableVirtualization={false}
+            getItem={[Function]}
+            getItemCount={[Function]}
+            horizontal={false}
+            initialNumToRender={10}
+            keyExtractor={[Function]}
+            maxToRenderPerBatch={10}
+            numColumns={1}
+            onContentSizeChange={[Function]}
+            onEndReachedThreshold={2}
+            onLayout={[Function]}
+            onMomentumScrollEnd={[Function]}
+            onScroll={[Function]}
+            onScrollBeginDrag={[Function]}
+            onScrollEndDrag={[Function]}
+            renderItem={[Function]}
+            scrollEventThrottle={50}
+            stickyHeaderIndices={Array []}
+            updateCellsBatchingPeriod={50}
+            viewabilityConfigCallbackPairs={Array []}
+            windowSize={21}
+          >
+            <View />
+          </RCTScrollView>
+        </View>
+      </RCTScrollView>
+    </View>
+  </RCTSafeAreaView>
+</BVLinearGradient>
+`;
